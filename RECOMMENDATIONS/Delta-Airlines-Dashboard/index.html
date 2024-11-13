@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta Airlines Enhanced Recommendations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Delta Airlines Strategic Recommendations</h1>
+            <p>Data-Driven Solutions for Enhanced Performance</p>
+        </div>
+
+        <!-- Key Metrics Grid -->
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-icon bg-blue-100">
+                    👥
+                </div>
+                <div class="metric-content">
+                    <p class="metric-label">Customer Satisfaction Target</p>
+                    <p class="metric-value text-blue">+25%</p>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon bg-green-100">
+                    💰
+                </div>
+                <div class="metric-content">
+                    <p class="metric-label">Revenue Growth Goal</p>
+                    <p class="metric-value text-green">+15%</p>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon bg-red-100">
+                    ⏰
+                </div>
+                <div class="metric-content">
+                    <p class="metric-label">Delay Reduction Target</p>
+                    <p class="metric-value text-red">-20%</p>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon bg-purple-100">
+                    ✈️
+                </div>
+                <div class="metric-content">
+                    <p class="metric-label">Route Optimization</p>
+                    <p class="metric-value text-purple">+30%</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Priority Recommendations -->
+        <div class="recommendations-card">
+            <h2>Priority Recommendations</h2>
+            
+            <div class="recommendation-item bg-blue-50">
+                <div class="recommendation-icon bg-blue-100">↑</div>
+                <div>
+                    <h3>1. Enhanced Customer Experience Management</h3>
+                    <p>Implement proactive flight status communication and optimize lounge services</p>
+                </div>
+            </div>
+
+            <div class="recommendation-item bg-green-50">
+                <div class="recommendation-icon bg-green-100">↑</div>
+                <div>
+                    <h3>2. Revenue Optimization</h3>
+                    <p>Develop seasonal add-on strategy and route-specific pricing</p>
+                </div>
+            </div>
+
+            <div class="recommendation-item bg-purple-50">
+                <div class="recommendation-icon bg-purple-100">↑</div>
+                <div>
+                    <h3>3. Operational Efficiency</h3>
+                    <p>Implement airport-specific delay mitigation and data integration</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Monthly Spend Chart -->
+        <div class="chart-card">
+            <h2>Monthly Add-On Spend Trend</h2>
+            <div class="chart-container">
+                <canvas id="spendChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
